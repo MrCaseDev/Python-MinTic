@@ -64,7 +64,7 @@ while numero_intentos < numero_vidas:
             if palabra_auxiliar == var_progreso.replace(" ", ""):
                 winner = True
                 break
-            print("Bien, la letra pertenece a la palabra.")
+            print(f"Bien, la letra pertenece a la palabra. Ya has digitado las siguiente letras incorrectas {lista_incorrectas}")
             print("Palabra: " + var_progreso)
         else:
             numero_intentos += 1
